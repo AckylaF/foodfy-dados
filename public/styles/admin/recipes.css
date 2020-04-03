@@ -1,0 +1,45 @@
+h1{
+    color: #111111;
+    font-size: 1.5em;
+    line-height: 28px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+#recipes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1.4em;
+    
+}
+#recipes img{
+    width: 172px;
+    height: 80px;
+    border-radius: 9px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+}
+.cards span + span{
+    margin-left: 1em;
+}
+.food-name, .cook, .cards span a{
+    margin-bottom: 10px;
+}
+.food-name{
+    font-size: 1.2em;
+    color: #111111;
+    line-height: 21px;
+}
+.cook{
+    font-size: 0.9em;
+    color: #777777;
+    line-height: 16px;
+}
+.cards span a{
+    font-size: 0.9em;
+    color: #6558C3;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}

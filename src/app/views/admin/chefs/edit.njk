@@ -1,0 +1,33 @@
+{% extends "../layout.njk" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/styles/admin/create.css">
+
+    <title>Editar chef - Foodfy</title>
+{% endblock head %}
+
+
+{% block content %}
+    <main class="container">
+        <div class="form-container">
+            <form id="edit-form" method="POST" action="/admin/chefs?_method=PUT">
+                <div id="top">
+                    <h1>Criando chef</h1>
+                    <button type="submit">Salvar</button>
+                </div>
+
+                {% include "admin/chefs/fields.njk" %} 
+            </form>
+
+            <form id="form-delete" method="post" action="/admin/chefs?_method=DELETE">
+                <input 
+                    type="hidden"
+                    name="id"
+                    value="{{chef.id}}"
+                >
+                <button id="delete" type="submit">Deletar</button>
+            </form>
+        </div>
+        
+    </main>
+{% endblock content %}

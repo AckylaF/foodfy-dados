@@ -1,0 +1,65 @@
+#title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+}
+#title{
+    font-size: 1.5em;
+    color: #111111;
+    font-weight: bold;
+}
+#edit-recipe{
+    width: 139px;
+    height: 37px;
+    color: #ffffff;
+    background-color: #6558C3;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+.food-image{
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+}
+.food-name{
+    font-size: 2em;
+    line-height: 42px;
+    color: #111111;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4px;
+}
+.cook{
+    font-size: 1em;
+    color: #777777;
+    text-align: center;
+}
+#instructions{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+h2{
+    font-size: 1.5em;
+    color: #111111;
+}
+.show-link{
+    font-size: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #999999;
+    cursor: pointer;
+}
+#instructions p{
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    text-align: justify;
+    text-indent: 0;
+}
+#instructions .hide-show{
+    text-indent: -9999px;
+}

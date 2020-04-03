@@ -1,0 +1,88 @@
+#title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+#title{
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+}
+#edit-chef{
+    width: 139px;
+    height: 37px;
+    color: #ffffff;
+    background-color: #6558C3;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+#highlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#highlight .chef-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+#highlight .chef-name{
+    font-size: 36px;
+    color: #111111;
+    font-weight: bold;
+}
+#highlight .total-recipes{
+    font-size: 20px;
+    color: #777;
+    margin-top: 4px;
+}
+.recipes-title{
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+    margin-top: 3em;
+}
+#recipes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2em;
+    margin-bottom: 4em;
+} 
+.cards{
+    display: flex;
+    align-items: center;
+}
+#recipes .cards img{
+    width: 172px;
+    height: 80px;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.food-name{
+    color: black;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#recipes .cards p{
+    color: #777777;
+    opacity: 90%;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+.cards span a{
+    font-size: 14px;
+    color: #6558C3;
+    line-height: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}

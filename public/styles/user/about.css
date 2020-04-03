@@ -1,0 +1,34 @@
+.container h3{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #111;
+    margin-top: 3em;
+    margin-bottom: 1.2em;
+}
+.container p{
+    font-size: 1.1em;
+    color: #444444;
+    line-height: 28px;
+    text-align: justify;
+    margin-bottom: 2em;
+}
+.container h4{
+    font-size: 1.2em;
+    color: #111;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+footer{
+    background-color: #EEEEEE;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+footer p{
+    font-size: 14px;
+    line-height: 16px;
+    color: #999999;
+    text-align: center;
+    margin-top: 20px;
+}
